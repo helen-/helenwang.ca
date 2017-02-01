@@ -1,25 +1,25 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { HeaderComponent } from './header.component';
 
-describe('AppComponent', () => {
+describe('HeaderComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        HeaderComponent
       ],
     });
     TestBed.compileComponents();
   });
 
   it('should create the app', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
+    const fixture = TestBed.createComponent(HeaderComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
 
-  it(`should have as title 'app works!'`, async(() => {
+/*  it(`should have as title 'app works!'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('app works!');
@@ -32,3 +32,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('app works!');
   }));
 });
+*/

@@ -1,0 +1,18 @@
+<div class="header">
+  <h1>Helen Y. Wang</h1>
+  <p>I like to dabble in various things.</p>
+  <div class="links">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/helenwang-" target="_blank">Linkedin</a></li> |
+      <li><a href="https://github.com/helen-" target="_blank">Github</a></li> |
+      <!-- <li><a href="">Photography</a></li> | -->
+      <li><a (click)="togglePhotography()" href="#">Photography</a></li> |
+      <li><a (click)="toggleTravel()" href="#">Travel</a></li>
+    </ul>
+  </div>
+
+
+</div>
+
+<photography [displayPhotography]="displayPhotography"></photography>
+<travel [displayTravel]="displayTravel"></travel>

@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
 
 export class TravelComponent {
   @Input()
-  displayTravel: Boolean;
+  displayTravels: Boolean;
 }

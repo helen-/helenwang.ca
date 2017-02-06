@@ -6,16 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  displayPhotography: Boolean;
-  displayTravel: Boolean;
+  displayTravels: Boolean;
+  displayAbout: Boolean;
 
-  togglePhotography(): void {
-    this.displayTravel = false;
-    this.displayPhotography = true;
+  toggleTravels(): void {
+    this.displayAbout = false;
+    this.displayTravels = true;
   }
 
-  toggleTravel(): void {
-    this.displayPhotography = false;
-    this.displayTravel = true;
+  toggleAbout(): void {
+    this.displayTravels = false;
+    this.displayAbout = true;
   }
 }

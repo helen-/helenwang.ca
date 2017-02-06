@@ -1,14 +1,17 @@
 body {
   font-size: 100%;
   line-height: 1.2;
+  background-color: #fffbf5;
 }
 
 h1 {
   color: black;
-  font-size: 3.5em;
+  font-size: 11px;
+  letter-spacing: 4px;
   margin: 0 auto;
-  font-weight: normal;
+  font-weight: bold;
   font-family: 'Merriweather', serif;
+  text-transform: uppercase;
 }
 
 p {
@@ -19,41 +22,66 @@ p {
 }
 
 .header {
-  left: 50%;
+  left: 2%;
   top: 5%;
   position: absolute;
-  text-align: center;
-  transform: translate(-50%);
+  text-align: left;
 }
 
 .content {
-  left: 50%;
-  top: 30%;
-  text-align: center;
+  left: 15%;
+  top: 10%;
+  text-align: left;
   position: absolute;
-  transform: translate(-50%);
-  max-width: 500px;
+  max-width: 1000px;
+  font-size: 11px;
+  color: grey;
+  font-family: 'Merriweather', serif;
+}
+
+.content-photos {
+  left: 25%;
+  top: 10%;
+  text-align: left;
+  position: absolute;
+  max-width: 1000px;
+  font-size: 11px;
+  color: grey;
+  font-family: 'Merriweather', serif;
+}
+
+.content-photos img {
+  margin-bottom: 20px;
+}
+
+.content a {
+  color: grey;
+  text-decoration: none;
 }
 
 .links {
   max-width: 600px;
-  margin-left: 5px;
 }
 
 .links ul {
-  padding: 0;
+  padding: 20px 0;
 }
 
 .links li {
-  display: inline-block;
+  display: block;
   list-style: none;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 
 .links a {
   color: grey;
   text-decoration: none;
-  font-size: 0.9em;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
   margin: 0 2px 0 2px;
   text-transform: uppercase;
 }

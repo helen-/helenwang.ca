@@ -40,18 +40,16 @@ p {
 }
 
 .content-photos {
-  left: 25%;
-  top: 10%;
+  left: 12%;
+  top: 8%;
   text-align: left;
   position: absolute;
-  max-width: 1000px;
-  font-size: 11px;
-  color: grey;
-  font-family: 'Merriweather', serif;
+  max-width: 1700px;
 }
 
 .content-photos img {
-  margin-bottom: 20px;
+  margin: 20px;
+  display: inline-block;
 }
 
 .content a {

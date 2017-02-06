@@ -40,15 +40,15 @@ p {
 }
 
 .content-photos {
-  left: 12%;
+  left: 11%;
   top: 8%;
   text-align: left;
   position: absolute;
-  max-width: 1700px;
+  max-width: 1800px;
 }
 
 .content-photos img {
-  margin: 20px;
+  margin: 15px;
   display: inline-block;
 }
 

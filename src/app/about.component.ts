@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'about',
   templateUrl: './about.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./styles.css']
 })
 
 export class AboutComponent {
